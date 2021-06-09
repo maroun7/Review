@@ -1,0 +1,24 @@
+ .nav {
+     width: 100vw;
+ }
+
+ .nav .navbar {
+     padding-left: 25px;
+     padding-right: 25px;
+     width: 100%;
+ }
+
+ @media (max-width: 600px) {
+    .nav .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 80%;
+    }
+  }
+
+ 
+ .welcome {
+    height: 100vh;
+    background-color:lightgrey;
+    text-align: center;
+}
